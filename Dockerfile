@@ -1,5 +1,5 @@
 # Stage 1: Base image with common dependencies cuda:12.4.0-runtime-ubuntu22.04
-FROM runpod/worker-comfyui:3.6.0-base AS base
+FROM runpod/worker-comfyui:latest AS base
 
 # Prevents prompts from packages asking for user input during installation
 ENV DEBIAN_FRONTEND=noninteractive
